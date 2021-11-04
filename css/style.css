@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(circle, gray, black);
+}
+
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 410px;
+}
+
+div#colorChange {
+    width: 10px;
+    height: 10px;
+    background-color: yellow;
+}
+
+div#colorChange:hover {
+    background-color: red;
+}
+
+a:visited {
+    background-color: green;
+}
+
